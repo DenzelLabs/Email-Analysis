@@ -55,7 +55,7 @@
 <p>Q4: Identifying malware that exploits system resources for cryptocurrency mining is critical for prioritizing threat mitigation efforts. The malicious URL can deliver several malware types. Which malware family is responsible for cryptocurrency mining?</p>
 <strong>Answer: Coinminer</strong>
 <br>
-<p>Pasted http://107.175.247.199/loader/install.exe into Urlhaus to check if it’s a known malware distributor</p>
+<p>Pasted http://107.175.247.199/loader/install.exe into Urlhaus to check if it’s a known malware distributor.</p>
 <img width="1276" height="309" alt="image" src="https://github.com/user-attachments/assets/bbd6a578-fa02-4cf3-b0fc-84d04a8951d7" />
 <br>
 <p>On Malpedia, saw that Coinminer malware hijacks system resources to secretly mine cryptocurrency.</p>
@@ -65,9 +65,13 @@
 
 <p>Q5: Identifying the specific URLs malware requests is key to disrupting its communication channels and reducing its impact. Based on the previous analysis of the cryptocurrency malware sample, what does this malware request the URL?</p>
 <strong>Answer: http://ripley.studio/loader/uploads/Qanjttrbv.jpeg</strong>
+<p>Click the link for more info, then copy the SHA-256 (Coinminer)</p>
+<img width="1276" height="309" alt="image" src="https://github.com/user-attachments/assets/bbd6a578-fa02-4cf3-b0fc-84d04a8951d7" />
+<img width="1267" height="283" alt="image" src="https://github.com/user-attachments/assets/9e11fc5a-3d97-4de3-b344-094c469f4837" />
+
 <p>Paste the SHA-256 hash from URLhaus into VirusTotal to retrieve the malware URL</p>
 <img width="1371" height="501" alt="image" src="https://github.com/user-attachments/assets/39aaa283-d5f9-4acd-91f5-ba9c0a30c1af" />
-<br><br>
+<br>Clicked to get more info<br>
 
 <p>Q6: Understanding the registry entries added to the auto-run key by malware is crucial for identifying its persistence mechanisms. Based on the BitRAT malware sample analysis, what is the executable's name in the first value added to the registry auto-run key?</p>
 <strong>Answer: Jzwvix.exe </strong>
