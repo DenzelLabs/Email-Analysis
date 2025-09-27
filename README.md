@@ -71,7 +71,7 @@
 
 <p>Paste the SHA-256 hash from URLhaus into VirusTotal to retrieve the malware URL</p>
 <img width="1371" height="501" alt="image" src="https://github.com/user-attachments/assets/39aaa283-d5f9-4acd-91f5-ba9c0a30c1af" />
-<br>Clicked to get more info<br>
+<br><br>
 
 <p>Q6: Understanding the registry entries added to the auto-run key by malware is crucial for identifying its persistence mechanisms. Based on the BitRAT malware sample analysis, what is the executable's name in the first value added to the registry auto-run key?</p>
 <strong>Answer: Jzwvix.exe </strong>
