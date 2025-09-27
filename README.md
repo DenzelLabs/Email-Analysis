@@ -1,7 +1,35 @@
 # Email-Analysis
 
+<br><br>
+
+## Objective
+
+<p>To investigate a phishing email by analyzing its metadata, headers, malicious URLs, and associated malware samples in order to trace the origin, identify persistence mechanisms, and understand the threat landscape.</p>
+
+<br><br>
+
+## Skills Learned
+<ul>
+  <li>Email header analysis (SPF, DKIM, return path)</li>
+  <li>IP tracing and threat intelligence lookup</li>
+  <li>Malware detection and classification (Coinminer, BitRAT, AsyncRAT)</li>
+  <li>Hash analysis using VirusTotal and URLhaus</li>
+  <li>Registry and persistence mechanism investigation</li>
+</ul>
+
+<br><br>
+
+## Tools USed
+<ul>
+  <li>Notepad++ (email inspection)</li>
+  <li>URLhaus (malware distribution check)</li>
+  <li>Malpedia (malware family identification)</li>
+  <li>VirusTotal (hash and URL scanning)</li>
+  <li>VMRay (registry persistence analysis)</li>
+</ul>
 
 
+<br><br>
 
 
 ## Questions
