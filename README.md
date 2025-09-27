@@ -1,37 +1,13 @@
 # Email-Analysis
 
-## Investigation
 
-<p>checked the URL <strong>fsfb.org.co</strong> on VirusTotal to see if it’s malicious.</p>
-<img width="1317" height="190" alt="image" src="https://github.com/user-attachments/assets/582129c0-4803-4e07-8bf1-579a33553ee1" />
-
-<br><br>
-
-<p>Looked up IP <strong>18.208.22.104</strong> on VirusTotal for threat check</p>
-<img width="1331" height="203" alt="image" src="https://github.com/user-attachments/assets/d758afec-c361-44fd-bc2b-a1819a630c2a" />
-
-<br><br>
-
-<p>VirusTotal shows 13/98 vendors flagged this URL as malicious <strong>http://107.175.247.199/loader/install.exe</strong></p>
-<img width="1333" height="206" alt="image" src="https://github.com/user-attachments/assets/1e04000b-5b47-4f67-9a17-e0aeb91c26ed" />
-
-<br><br>
-
-<p>Pasted http://107.175.247.199/loader/install.exe into Urlhaus to check if it’s a known malware distributor. Clicked to get more info</p>
-<img width="1276" height="309" alt="image" src="https://github.com/user-attachments/assets/bbd6a578-fa02-4cf3-b0fc-84d04a8951d7" />
-<img width="1267" height="283" alt="image" src="https://github.com/user-attachments/assets/9e11fc5a-3d97-4de3-b344-094c469f4837" />
-
-<br><br>
-
-<p>Paste the SHA-256 hash from URLhaus into VirusTotal to retrieve the malware URL (Coinminer)</p>
-<img width="1371" height="501" alt="image" src="https://github.com/user-attachments/assets/39aaa283-d5f9-4acd-91f5-ba9c0a30c1af" />
 
 
 
 ## Questions
 
 <p>Q1: Identifying the sender's IP address with specific SPF and DKIM values helps trace the source of the phishing email. What is the sender's IP address that has an SPF value of softfail and a DKIM value of fail?</p>
-<strong>Answer: 18.208.22.104</strong>
+<strong>Answer: 18.208.22.104</strong><p>used Notepad++ to open the Email</p>
 <br>
 <img width="566" height="71" alt="image" src="https://github.com/user-attachments/assets/42089ba5-bb72-47b8-b58c-714c5d71d974" />
 
